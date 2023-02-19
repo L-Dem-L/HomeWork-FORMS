@@ -1,0 +1,65 @@
+@import '../variables/variables.scss';
+
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 700px;
+    background-color: $box-background-color;
+    border-radius: 20px;
+}
+
+.title {
+    padding-top: 50px;
+    margin-left: -25px;
+}
+
+.form-title {
+    width: 75%;
+    padding: 15px 0 15px 40px;
+    margin: 0;
+    background-color: $form-title-background-color;
+    color: $form-title-color;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+form {
+    width: 60%;
+    padding: 0 15px;
+    margin: 20px 0 30px 0;
+}
+
+.label {
+    color: $label-color;
+    margin: 15px 0 5px 0;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    background-color: $input-background-color;
+    border: none;
+    border-bottom: 1px solid $input-bordr-bottom-color;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: $plaseholder-color;
+}
+
+.data {
+    display: flex;
+    gap: 15px;
+}
+
+.data .input input {
+    width: 90%;
+}
